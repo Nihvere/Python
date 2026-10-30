@@ -1,0 +1,11 @@
+name = input("Введите имя: ")
+birth_day = input("Введите день рождения: ")
+birth_mo = input("Введите месяц рождения: ")
+birth_years = input("Введите год рождения: ")
+gmail = input("Введите username почты: ")
+
+print("------", end="\n")
+print(name, end="\n")
+print(birth_day, birth_mo, birth_years, sep=".", end="\n")
+print(gmail+"@gmail.com", end="\n")
+print("------", end="\n")

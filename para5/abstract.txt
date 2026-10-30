@@ -1,0 +1,46 @@
+ list1 = [1, 2, 2, 3, 3]
+ append добавляет в конец списка
+ list1.append(5)
+
+ from(из)
+представим у нас есть файл labry.py и там есть функция draw_patch
+мы можем сделать так:
+# from labry import draw_patch 
+что тут происходит, береться из labry.py импортирует функцию
+
+---
+
+insert добавляет элемент в список по индексу
+
+list1.insert(2, "second")
+print(list1)
+
+---
+
+# Функции в Python
+def main():
+    print("Hello")
+# Вызов функции main()
+main()
+
+import - Импортирует библиотеку
+
+
+--- треугольник ---
+def triangle():
+    count = 0
+    while count <= 2:
+        count = count +1
+        turtle.forward(100)
+        turtle.left(120)
+--- круг ---
+def circle():
+    settings = int(input("Введите диаметр круга: "))
+    turtle.circle(settings)
+--- звезда ---
+def star():
+    count = 0
+    while count <= 4:
+        count = count + 1
+        turtle.forward(130)
+        turtle.right(144)

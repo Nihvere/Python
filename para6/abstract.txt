@@ -1,0 +1,46 @@
+--- set ---
+set() - Множество коллекция неупорядочных уникальных неизменимых объектов
+print(x in our_set_2)
+Есть ли x в our_set_2 если есть то выведет True а если нет то False
+
+print(x not in our_set)
+Нету ли x в our_set
+
+union соеденяет set_a + set_b
+result = set_a.union(set_b)
+
+intersection - Среди отобранных
+----
+our_products = {"Apple", "Tesla", "McDonald`s"}
+range_of_the_company_1 = {"Samsung", "Sony"}
+range_of_the_company_2 = {"Apple","IBM","Tesla"}
+range_of_the_company_3 = {"BMW", "Tesla", "Ferrari"}
+print(our_products.intersection(range_of_the_company_1))
+print(our_products.intersection(range_of_the_company_2))
+print(our_products.intersection(range_of_the_company_3))
+
+Показывает приближенные компании к нашему ассортименту
+----
+difference - Показывает разницу и на этой программе показывает что компаниям надо добавить
+
+our_products = {"Apple", "Tesla", "McDonald`s"}
+range_of_the_company_1 = {"Samsung", "Sony"}
+range_of_the_company_2 = {"Apple","IBM","Tesla"}
+range_of_the_company_3 = {"BMW", "Tesla", "Ferrari"}
+print(our_products.difference(range_of_the_company_1))
+print(our_products.difference(range_of_the_company_2))
+print(our_products.difference(range_of_the_company_3))
+
+----
+discard() - удаляет с множителя, разница в том что discard может удалить и несуществующий
+remove() - А этот так-же удалит но если удалить несуществующий то выдаст ошибку
+
+our_products.discard("Apple")
+our_products.discard("test") - удалит без ошибки потому что discard отбрасывает эл
+our_products.remove("Tesla")
+our_products.remove("test") - выдаст ошибку потому что он удаляет эл
+----
+pass - Делает ничего (Нужно если например нужна функция но она пока что не используется)
+
+int, float, srt, list и другие это классы которые изначально есть в Python
+класс всегда пишется с заглавной буквы
