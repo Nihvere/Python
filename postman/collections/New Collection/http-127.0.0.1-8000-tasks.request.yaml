@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://127.0.0.1:8000/tasks
+description: ""
+url: http://127.0.0.1:8000/tasks
+method: GET
+body:
+  type: json
+  content: '{"title": "C++"}'
+order: 1000
